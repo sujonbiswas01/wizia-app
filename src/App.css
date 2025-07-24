@@ -1,0 +1,20 @@
+/* navbar section start here */
+.animationItem{
+  position: relative;
+
+}
+.animationItem::after{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: greenyellow;
+  width: 0%;
+  height: 2px;
+  transition: all 0.6s linear ;
+
+}
+.animationItem:hover::after{
+  width: 100%;
+}
+/* navbar section end here */
